@@ -1,4 +1,4 @@
-(defproject org.onyxplatform/untangled-client "0.8.2-SNAPSHOT"
+(defproject org.onyxplatform/untangled-client "0.1.0"
   :description "Client-side code for Untangled Webapps"
   :url ""
   :license {:name "MIT"
