@@ -1,6 +1,6 @@
 (ns untangled.client.ui-spec
   (:require
-    [clojure.spec :as s]
+    [clojure.spec.alpha :as s]
     [clojure.test :as t]
     [om.next :as om]
     [untangled-spec.core :refer

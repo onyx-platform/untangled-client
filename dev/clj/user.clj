@@ -3,8 +3,8 @@
     [clojure.pprint :refer [pprint]]
     [clojure.repl :refer [doc source]]
     [clojure.set :as set]
-    [clojure.spec :as s]
-    [clojure.spec.gen :as sg]
+    [clojure.spec.alpha :as s]
+    [clojure.spec.gen.alpha :as sg]
     [clojure.tools.namespace.repl :refer [refresh]]
     [figwheel-sidecar.system :as fig]
     [com.stuartsierra.component :as component]))

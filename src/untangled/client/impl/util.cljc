@@ -1,10 +1,10 @@
 (ns untangled.client.impl.util
   (:require
     [clojure.pprint :refer [pprint]]
-    [clojure.spec :as s]
+    [clojure.spec.alpha :as s]
     [om.next :as om]
     #?(:clj
-    [clojure.spec.gen :as sg]))
+    [clojure.spec.gen.alpha :as sg]))
   #?(:clj
      (:import (clojure.lang Atom))))
 
